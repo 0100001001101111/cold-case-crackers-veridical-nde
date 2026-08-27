@@ -1,0 +1,71 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "REG-07",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "REPAIR_ACCEPTED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The named V1 defect is repaired and the frozen V2 semantic adjudication accepts the bounded card.",
+    "V4 promotion 2026-08-27 under GOAL_COLD_CASE_WAVE_ONE_READINESS: the V1 defect was repaired in-run, the frozen V2 semantic adjudication accepted the bounded card, and Bo's wave-one authorization covers publication of postable cards; supersedes the V3 eligibility flag which predated the repair acceptance."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "issued_at_utc": "2026-08-27T04:12:15.260671+00:00",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "7e9b1dc6354ca1a00f290e2590982f4d2d045a8b3e11edf9bffdb3ac165087de",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_REG-07.md",
+    "case_file_sha256": "f96973f6250b8c86bdc3fd83c23fa893a0e926da323d4d47452a42c9b5fcbfdc",
+    "declared_sources": [
+      {
+        "declared_sha256": "a34039203eadbc5cbfda57cabe4452207eb092ffc26e0b50c84edf25771e6eb1",
+        "g23_currency": "NOT_APPLICABLE",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "a34039203eadbc5cbfda57cabe4452207eb092ffc26e0b50c84edf25771e6eb1",
+        "path": "/Users/bo/data/adp/RETRACTION_REGISTRY.md"
+      },
+      {
+        "declared_sha256": "80c46acb27c7306f011bd5a1f7fe636658fc5ba6df672ba53db27e118d21c5e1",
+        "g23_currency": "NOT_APPLICABLE",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "80c46acb27c7306f011bd5a1f7fe636658fc5ba6df672ba53db27e118d21c5e1",
+        "path": "/Users/bo/data/adp/investigations/vibration_consciousness_next_program_2026-07-22_push_v1/WHAT_IS_IT_2026-07-22.md"
+      },
+      {
+        "declared_sha256": "05b8d56a974ae9366a7cbe97d524c72cfc4d57f1b5b89e0f749e97fe002d747f",
+        "g23_currency": "NOT_APPLICABLE",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "05b8d56a974ae9366a7cbe97d524c72cfc4d57f1b5b89e0f749e97fe002d747f",
+        "path": "/Users/bo/data/adp/investigations/vibration_consciousness_next_program_2026-07-22_push_v1/veridical_bundle_texts.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "f5b802d1db4e42403cdc850bb892071b0007a6cadc1bcd991ea83a0fb2e6eb02",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2059,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/REG-07.json",
+      "sha256": "12d0ff03a21245ece443b222108b8a11bb360200cfc35ccacf1f2fc48f06f0f8"
+    }
+  },
+  "supersedes": {
+    "path": "/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/10_current_index_reverification/case_receipts_v3/REG-07.json",
+    "sha256": "d7ae716ec37f4bcd321f3a63b214644554cbf55d1d7431453f4ab68cc372a820"
+  },
+  "verdict": "ACCEPTED"
+}
